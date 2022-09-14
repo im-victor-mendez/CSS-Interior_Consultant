@@ -129,3 +129,35 @@ body {
     width: 50%;
     height: 100%;
 }
+
+.designer {
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    background-color: var(--background);
+    padding: 1rem 1%;
+    width: 30%;
+}
+
+.designer img {
+    float: left;
+    width: 25%;
+    border-radius: 100%;
+}
+
+.designer h1, h2{
+    position: relative;
+    float: left;
+    left: 5%;
+    margin: 0%;
+    margin-bottom: 5%;
+}
+
+.designer h2 {
+    margin-bottom: 5%;
+}
+
+.designer p {
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
