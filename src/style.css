@@ -1,6 +1,15 @@
 /* Typography */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500&family=Montserrat:wght@500&display=swap');
 
+:root {
+    --background: #181719;
+    --fontColor: #FFFFFF;
+}
+
+body {
+    background-color: var(--background);
+}
+
 .section {
     font-family: Crimson Pro;
     font-size: 14px;
@@ -8,6 +17,7 @@
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .nav {
@@ -17,6 +27,7 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .text h1 {
@@ -26,6 +37,7 @@
     line-height: 61px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .text p {
@@ -35,6 +47,7 @@
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .text a {
@@ -44,6 +57,7 @@
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .designer h1 {
@@ -53,6 +67,7 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .designer h2 {
@@ -62,6 +77,7 @@
     line-height: 15px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .designer p {
@@ -71,6 +87,7 @@
     line-height: 31px;
     letter-spacing: 0em;
     text-align: left;
+    color: var(--fontColor);
 }
 
 .author {
@@ -80,4 +97,5 @@
     line-height: 17px;
     letter-spacing: 0em;
     text-align: center;
+    color: var(--fontColor);
 }
