@@ -8,6 +8,7 @@
 
 body {
     background-color: var(--background);
+    text-align: center;
 }
 
 .section {
@@ -104,6 +105,11 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: var(--fontColor);
+    position: absolute;
+    margin: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 1%;
 }
 
 .topNav {
