@@ -112,3 +112,20 @@ body {
     top: -2rem;
     width: max-content;
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content div {
+    width: 50%;
+}
+
+.content img {
+    width: 50%;
+    height: 100%;
+}
