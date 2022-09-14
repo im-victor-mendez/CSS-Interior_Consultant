@@ -18,6 +18,9 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--fontColor);
+    width: max-content;
+    padding: 0.2rem;
+    border: 1px solid var(--fontColor);
 }
 
 .nav {
@@ -28,6 +31,8 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--fontColor);
+    text-decoration: none;
+    margin-left: 3rem;
 }
 
 .text h1 {
@@ -58,6 +63,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: var(--fontColor);
+    text-decoration: none;
 }
 
 .designer h1 {
@@ -98,4 +104,11 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: var(--fontColor);
+}
+
+.topNav {
+    float: right;
+    position: relative;
+    top: -2rem;
+    width: max-content;
 }
