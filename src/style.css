@@ -198,4 +198,53 @@ body {
         letter-spacing: 0em;
         text-align: left;
     }
+
+    .topNav {
+        visibility: hidden;
+    }
+
+    .content {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .content div {
+        width: 80%;
+    }
+
+    .content img {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .designer {
+        left: 10%;
+        top: 60%;
+        width: 85%;
+        padding: 1rem;
+    }
+
+    .designer img {
+        width: 10%;
+    }
+
+    .designer h1 {
+        margin: 0%;
+        float: none;
+    }
+
+    .designer h2 {
+        float: left;
+    }
+
+    .designer p {
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .author {
+        position: absolute;
+        bottom: 0%;
+    }
 }
